@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculadora IMC"
+            android:textSize="24dp"
+            android:layout_marginTop="15pt"
+            android:layout_gravity="center"
+    />
+
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15pt"
+    >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peso(em Kg): "
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5pt"
+
+        />
+
+        <TextView
+                android:id="@+id/txtPeso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="000.00"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="40pt"
+
+        />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kg"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5pt"
+
+        />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15pt">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Altura(em metros): "
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5pt"
+
+        />
+
+        <TextView
+                android:id="@+id/txtAltura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="000.00"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="25pt"
+
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="m"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5pt"
+
+        />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="25pt">
+
+        <Button
+                android:id="@+id/btnPeso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Editar Peso"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="40pt"
+        />
+
+        <Button
+                android:id="@+id/btnAltura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Editar Altura"
+                android:layout_gravity="center_horizontal"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+    >
+
+        <Button
+                android:id="@+id/btnCalcula"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calcular"
+                android:layout_gravity="center"
+
+
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="25pt">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Resultado"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+
+        />
+
+        <TextView
+                android:id="@+id/txtResultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aperte o botão 'Calcular"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_marginTop="10pt"
+                android:textAlignment="center"
+
+        />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+

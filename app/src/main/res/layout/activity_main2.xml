@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Main2Activity"
+>
+
+    <TextView
+            android:layout_marginTop="40pt"
+            android:layout_marginBottom="20pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Digite o valor desejado: "
+            android:textSize="18dp"
+    />
+
+    <EditText
+            android:id="@+id/edtValor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Valor"
+            android:inputType="numberDecimal|numberSigned"
+    />
+
+    <Button
+            android:id="@+id/btnAlterar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Alterar"
+            android:textSize="15dp"
+    />
+
+</LinearLayout>
